@@ -3,6 +3,7 @@ import React from 'react'
 import FlatCards from './components/FlatCards'
 import ElevatedCards from './components/ElevatedCards'
 import FancyCard from './components/FancyCard'
+import ActionCard from './components/ActionCard'
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -14,6 +15,7 @@ const App = () => {
         <FancyCard />
         <FancyCard />
         <FancyCard />
+        <ActionCard />
         </View>
         
       </ScrollView>
